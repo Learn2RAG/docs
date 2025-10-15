@@ -24,15 +24,15 @@ Subrepository with a third-party tool to build packages.
 ## qdrant
 Qdrant configuration files.
 ## services
-### basic-pipeline
+### services/basic-pipeline
 First-party component.
-### importer
+### services/importer
 First-party component.
-### open-webui
+### services/open-webui
 Third-party component.
-### open-webui-pipelines
+### services/open-webui-pipelines
 Third-party component.
-### start-*
+### services/start-*
 Launcher scripts for other components which are replaced by binaries in the packaged version.
 ## start*
 Start scripts for development and packaged versions.
