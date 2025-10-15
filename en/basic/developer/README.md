@@ -1,0 +1,5 @@
+- [Setting up the developer environment](setup)
+- [Running](run)
+- [Internationalization](internationalization)
+- [Packaging](package)
+- [Project structure](structure)
