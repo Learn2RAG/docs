@@ -31,6 +31,19 @@ A short list of suggested language models to download is provided for a quick st
 An external (local or remote) language model can be used if it's available with OpenAI or Ollama compatible API.
 You would need an API URL and (if required) an access token.
 
+##### OpenAI's ChatGPT
+API type
+: ChatOpenAI
+
+API URL
+: (leave empty)
+
+Access token
+: `<your token>`
+
+Language model
+: `gpt-4o` or other
+
 ### Data sources
 In this section the data sources are only configured.
 They are actually scanned or retrieved on a later stage, after a pipeline is configured and the import task is run.
