@@ -65,11 +65,6 @@ sudo apt install libgl1 libmagic1
 ```
 
 ## Dependencies for building the packages
-## Requirements
-### Debian packages
-`apt install autoconf automake ca-certificates clang cmake dpkg-dev g++ gcc git golang-go libc6-dev libgl1 libmagic1 libssl-dev make python3 python3-dev python3-pip python3-venv rsync unzip wget`
-### Node.js
-Version 20 is required.
 ### Rust
 #### Debian 13
 ```sh
