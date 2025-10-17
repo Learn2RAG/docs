@@ -20,7 +20,6 @@ Die Konfiguration der Learn2RAG Software ist als Weboberfläche gestaltet und ka
 
 Die Oberfläche des Konfigurators ist in 3 Bereiche eingeteilt: [Sprachmodelle](#Sprachmodelle), [Datenquellen](#Datenquellen), und [Pipelines](#Pipelines). Zusätzlich wird beim ersten Starten ein Assistent im oberen Bereich angezeigt, der bei der Erstellung einer ersten RAG Pipeline unterstützt. Diese Assistent und die 3 einzelnen Bereich werden im folgenden näher betrachtet.
 
-%### Sprachauswahl der Benutzeroberfläche
 Learn2RAG beinhaltet englische und deutsche Lokalisierungen der Benutzeroberfläche.
 Die Lokalisierung wird gemäß den Einstellungen Ihres Webbrowsers ausgewählt.
 Weitere Details finden Sie in der Dokumentation Ihres Webbrowsers.
@@ -37,8 +36,6 @@ Dies geschieht mit Ollama, das automatisch gestartet wird.
 Eine kurze Liste empfohlener Sprachmodelle zum Herunterladen wird für einen schnellen Start bereitgestellt. Sie können aber auch jedes andere von Ollama unterstützte Modell auswählen. Eine Übersicht über verfügbare Modelle finden Sie unter: <https://ollama.com/library>.
 
 🛈 Beachten Sie bitte, dass einige Modelle hohe Anforderungen an die zur Verfügung gestellt Hardware haben können.
-
-%##### Empfohlene Sprachmodelle
 
 #### Externe Sprachmodelle
 Ein externes (lokales oder Remote-) Sprachmodell kann verwendet werden, wenn es über eine OpenAI- oder Ollama-kompatible API verfügbar ist.
