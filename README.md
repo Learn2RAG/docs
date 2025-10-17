@@ -1,6 +1,8 @@
-# Learn2RAG Documentation
+---
+title: Learn2RAG Dokumentation
+---
 
-This page contains the documentation of the [Learn2RAG](https://learn2rag.de) software. It is available in two languages:
+Diese Seite beinhaltet die Dokumentation der [Learn2RAG](https://learn2rag.de) software. Es gibt sie in 2 Sprachen:
 
 - [German](de/basic)
 - [English](en/basic)

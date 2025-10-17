@@ -1,4 +1,7 @@
-# Administratordokumentation
+---
+title: Administratordokumentation
+---
+
 ## Anforderungen
 ### Linux
 - 64-Bit (Kernel 3.2+, glibc 2.17+)

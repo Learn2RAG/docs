@@ -1,4 +1,6 @@
-# Learn2RAG Basisversion
+---
+title: Learn2RAG Basisversion
+---
 
 - [Administratorhandbuch](administrator): Learn2RAG installieren und konfigurieren
 - [Benutzerhandbuch](user): Die Chat-Oberfläche nutzen
