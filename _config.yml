@@ -1,7 +1,7 @@
 title: Learn2RAG Documentation
 defaults:
-  - 
+  -
     scope:
-      path: "*/README.md"
+      path: "" # an empty string here means all files in the project
     values:
-      permalink: "index.html"
+      layout: "default"
