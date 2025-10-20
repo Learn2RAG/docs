@@ -1,5 +1,6 @@
 ---
-title: Benutzerhandbuch
+title: Learn2RAG Benutzerhandbuch
+permalink: /de/basic/user/index.html
 ---
 
 Die Learn2RAG Software kommt mit der quelloffenen [OpenWeb UI](https://openwebui.com/) Benutzeroberfläche. Diese ist sehr einfach zu bedienen und kann nach dem Start einer RAG Pipeline verwendet werden.

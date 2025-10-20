@@ -1,4 +1,8 @@
-# User documentation
+---
+title: Learn2RAG User Documentation
+permalink: /en/basic/user/index.html
+---
+
 ![Main screen](main.png)
 
 The main Learn2RAG interface provides an input field in the middle of the window.

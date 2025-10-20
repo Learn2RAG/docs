@@ -1,4 +1,8 @@
-# Administrator documentation
+---
+title: Learn2RAG Administrator Documentation
+permalink: /en/basic/administrator/index.html
+---
+
 ## Requirements
 ### Linux
 - 64-bit (kernel 3.2+, glibc 2.17+)

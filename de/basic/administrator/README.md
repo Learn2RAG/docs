@@ -1,5 +1,6 @@
 ---
-title: Administratordokumentation
+title: Learn2RAG Administratordokumentation
+permalink: /de/basic/administrator/index.html
 ---
 
 ## Anforderungen
