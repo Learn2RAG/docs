@@ -2,6 +2,6 @@ title: Learn2RAG Documentation
 defaults:
   - 
     scope:
-      path: "README.md"
+      path: "*/README.md"
     values:
       permalink: "index.html"
