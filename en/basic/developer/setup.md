@@ -1,3 +1,10 @@
+---
+layout: default
+title: Setting up the development environment
+nav_order: 1
+permalink: /en/basic/developer/setup/
+parent: Developer Documentation
+---
 # Setting up the development environment
 ## Overview
 The setup assumes using a Debian Linux system with the `bash` shell.

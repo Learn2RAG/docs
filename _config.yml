@@ -1,1 +1,17 @@
-layout: default
+title: Learn2RAG Docs
+description: Official documentation for Learn2RAG
+theme: just-the-docs
+baseurl: ""  # important for GitHub Pages
+url: "https://learn2rag.github.io/docs"
+
+#just_the_docs:
+#  collections:
+#    en:
+#      name: English
+#    de:
+#      name: Deutsch
+# Optional: add these later
+# logo: "/assets/images/logo.png"
+# color_scheme: "light"
+# Allow Jekyll to read non-default folders
+

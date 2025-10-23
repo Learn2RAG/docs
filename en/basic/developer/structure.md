@@ -1,3 +1,11 @@
+---
+layout: default
+title: Project structure
+nav_order: 5
+permalink: /en/basic/developer/structure/
+parent: Developer Documentation
+---
+
 # Project structure
 ## build-python
 A script to build all Python modules.

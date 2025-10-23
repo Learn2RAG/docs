@@ -1,6 +1,10 @@
 ---
-title: Learn2RAG Basisversion
-permalink: /de/basic/index.html
+layout: default
+title: Deutsch
+nav_order: 2
+has_children: true
+parent: Learn2RAG Docs
+permalink: /de/
 ---
 
 - [Administratorhandbuch](administrator): Learn2RAG installieren und konfigurieren

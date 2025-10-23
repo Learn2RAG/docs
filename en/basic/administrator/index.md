@@ -1,6 +1,9 @@
 ---
-title: Learn2RAG Administrator Documentation
-permalink: /en/basic/administrator/index.html
+layout: default
+title: Administrator Documentation
+nav_order: 1
+permalink: /en/basic/administrator/
+parent: English
 ---
 
 ## Requirements
