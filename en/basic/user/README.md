@@ -1,6 +1,10 @@
 ---
-title: Learn2RAG User Documentation
-permalink: /en/basic/user/index.html
+layout: default
+title: User Documentation
+nav_order: 3
+has_children: true
+permalink: /en/basic/user/
+parent: English
 ---
 
 ![Main screen](main.png)
