@@ -1,17 +1,28 @@
 title: Learn2RAG Docs
 description: Official documentation for Learn2RAG
-theme: just-the-docs
-baseurl: ""  # important for GitHub Pages
-url: "https://learn2rag.github.io/docs"
+remote_theme: just-the-docs/just-the-docs
+baseurl: "/docs"  # repository name on GitHub Pages
+url: "https://learn2rag.github.io"
 
-#just_the_docs:
-#  collections:
-#    en:
-#      name: English
-#    de:
-#      name: Deutsch
-# Optional: add these later
-# logo: "/assets/images/logo.png"
+# Plugins required by GitHub Pages
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+
+# Optional Just-the-Docs settings
+# just_the_docs:
+#   collections:
+#     en:
+#       name: English
+#     de:
+#       name: Deutsch
+
+# logo: "/static/images/logo.png"
 # color_scheme: "light"
-# Allow Jekyll to read non-default folders
 
+# Allow Jekyll to read non-default folders
+include:
+  - _includes
+  - _layouts
+  - static
