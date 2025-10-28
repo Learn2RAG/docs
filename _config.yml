@@ -1,8 +1,8 @@
 title: Learn2RAG Docs
 description: Official documentation for Learn2RAG
 remote_theme: just-the-docs/just-the-docs
-baseurl: "/docs"  # repository name on GitHub Pages
-url: "https://learn2rag.github.io"
+#baseurl: "/docs"  # repository name on GitHub Pages
+url: "https://docs.learn2rag.de"
 
 # Plugins required by GitHub Pages
 plugins:
