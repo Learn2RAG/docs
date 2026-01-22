@@ -6,6 +6,9 @@ permalink: /de/basic/Administratorhandbuch
 parent: Deutsch
 ---
 
+## Videoübersicht
+<video src="https://files.dice-research.org/projects/Learn2RAG/docs/de/basic/learn2rag-install-de.mp4"></video>
+
 ## Anforderungen
 ### Linux
 - 64-Bit (Kernel 3.2+, glibc 2.17+)
