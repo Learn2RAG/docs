@@ -7,7 +7,7 @@ parent: Deutsch
 ---
 
 ## Videoübersicht
-<video src="https://files.dice-research.org/projects/Learn2RAG/docs/de/basic/learn2rag-install-de.mp4"></video>
+<video src="https://files.dice-research.org/projects/Learn2RAG/docs/de/basic/learn2rag-install-de.mp4" controls></video>
 
 ## Anforderungen
 ### Linux
