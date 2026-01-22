@@ -7,6 +7,6 @@ parent: Learn2RAG Docs
 permalink: /de/
 ---
 
-- [Administratorhandbuch](administrator): Learn2RAG installieren und konfigurieren
-- [Benutzerhandbuch](user): Die Chat-Oberfläche nutzen
-- [Entwicklerdokumentation](../en/developer): Der interne Aufbau von Learn2RAG
+- [Administratorhandbuch]({% link de/basic/administrator/README.md %}): Learn2RAG installieren und konfigurieren
+- [Benutzerhandbuch]({% link de/basic/user/README.md %}): Die Chat-Oberfläche nutzen
+- [Entwicklerdokumentation]({% link en/basic/user/README.md %}): Der interne Aufbau von Learn2RAG
