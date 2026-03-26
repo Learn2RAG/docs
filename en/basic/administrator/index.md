@@ -59,6 +59,20 @@ They are actually scanned or retrieved on a later stage, after a pipeline is con
 Add local (on the same PC or server where Learn2RAG is running) directories.
 For example: `/home/user/Documents`, `C:\Users\User\Documents`.
 
+##### Supported File Types
+* **`.docx`**
+* **`.pptx`**
+* **`.xlsx`**
+* **`.pdf`**
+* **`.txt`**
+* **`.csv`**
+* **`.html`**
+* **`.md`**
+* **`.rtf`**
+* **`.odt`**
+* **`.epub`**
+
+
 #### Web pages
 Add URLs of web pages.
 For example: `https://en.wikipedia.org/wiki/Berlin`.
