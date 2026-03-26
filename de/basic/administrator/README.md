@@ -71,6 +71,19 @@ Zum Beispiel: `/home/user/Documents`, oder `C:\Users\User\Documents`.
 
 ![configurator file source](/static/images/config-add-file-source.png)
 
+##### Unterstützte Dateitypen
+* **`.docx`**
+* **`.pptx`**
+* **`.xlsx`**
+* **`.pdf`**
+* **`.txt`**
+* **`.csv`**
+* **`.html`**
+* **`.md`**
+* **`.rtf`**
+* **`.odt`**
+* **`.epub`**
+
 #### Webseiten
 
 Sie können auch Webseiten als Datenquellen hinzufügen. Zum Beispiel: `https://en.wikipedia.org/wiki/Berlin`.
