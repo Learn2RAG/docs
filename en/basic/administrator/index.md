@@ -7,6 +7,9 @@ parent: English
 ---
 
 ## Requirements
+### Hardware
+#### Disk space
+
 ### Linux
 - 64-bit (kernel 3.2+, glibc 2.17+)
 - You might need to install the following libraries from your distribution's package manager: `libgl1 libmagic1`. On a Debian or Ubuntu system, you can do that using `sudo apt install libgl1 libmagic1`.
@@ -17,8 +20,19 @@ parent: English
 ## Obtaining, installation and starting
 Download the release for your platform at <https://learn2rag.de/download>.
 Extract the archive.
-Run the file named `start`.
+```sh
+unzip learn2rag-linux.zip
+cd learn2rag-linux
+```
+
+Run the file named `start` either with a right mouse click and "Execute" or in a terminal.
+```sh
+./start
+```
+
 On the first run, Python environment and dependencies would be prepared, so it can take some time.
+Expected first start time:
+| Powerful server | 10 min |
 
 ## Configuration
 ### First run wizard
@@ -135,6 +149,23 @@ An example with all supported options:
 flask:
   # Application data path
   instance_path: '/data/learn2rag'
+host: '0.0.0.0'
+port: 9000
+TLS:
+  KEYFILE: '/absolute/path/key.pem'
+  CERTFILE: '/absolute/path/fullchain.pem'
+SIMPLE_AUTH:
+  # Must be a valid e-mail format
+  username: user@localhost
+  password: 123
+logging:
+  # Save detailed debug logs
+  debug: true
+# Ports which would be preferred by default for additional services
+PREFERRED_PORTS:
+  - 5001
+  - 5002
+  - 5003
 SUGGESTED_MODELS:
   local-chat:
     label: Local LLM configuration

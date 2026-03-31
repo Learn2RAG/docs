@@ -15,32 +15,24 @@ Other Linux distributions might require adapting these instructions.
 sudo apt update
 ```
 
-### pyenv
-See also: https://github.com/pyenv/pyenv
-
+### Python and other tools
 ```sh
-git clone --branch v2.6.11 --depth 1 https://github.com/pyenv/pyenv.git ~/.pyenv
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
-echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
+sudo apt install pipx
+pipx ensurepath
 source ~/.bashrc
-```
 
-### Python
-```sh
-sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev libzstd-dev
-pyenv install 3.11.13
-pyenv install 3.13.5
-pyenv global 3.11.13
-```
+pipx install uv
+uv python install 3.11.13
+uv python install 3.13.5
 
-### Poetry
-```sh
-python3 -m pip install --user pipx
-python3 -m pipx ensurepath
-source ~/.bashrc
 pipx install poetry
 ```
+
+### Dependencies
+```sh
+sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev libzstd-dev
+```
+
 
 ### node.js
 ```sh
@@ -57,7 +49,7 @@ sudo apt install cmake
 
 ## Source code
 ```sh
-git clone --recursive https://github.com/Learn2RAG/configurator
+git clone --recursive --branch master https://github.com/Learn2RAG/configurator
 ```
 
 ## Project dependencies and other components
@@ -76,6 +68,7 @@ sudo apt install libgl1 libmagic1
 #### Debian 13
 ```sh
 apt install rustup
+rustup default stable
 ```
 #### Debian 12
 ```sh
@@ -89,6 +82,7 @@ source ~/.bashrc
 ### Cross
 ```sh
 cargo install cross --git https://github.com/cross-rs/cross
+# might need to add ~/.cargo/bin to $PATH
 ```
 
 ### Docker
