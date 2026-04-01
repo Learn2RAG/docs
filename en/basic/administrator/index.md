@@ -176,3 +176,7 @@ SUGGESTED_MODELS:
       model: gemma-3-27b-it
       token: xxx
 ```
+
+## Troubleshooting
+### Remove application and user data storage
+<#data-storage-locations>
