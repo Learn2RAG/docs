@@ -17,7 +17,7 @@ parent: Deutsch
 - 64-Bit (Windows 10+, Windows Server 2016+)
 
 ## Installation
-1. Laden Sie die Version für Ihre Plattform von <https://learn2rag.de/download> herunter.
+1. Laden Sie die Version für Ihre Plattform von <https://learn2rag.de/downloads> herunter.
 2. Extrahieren Sie das Archiv.
 3. Führen Sie die Datei namens `start` aus. 
 
