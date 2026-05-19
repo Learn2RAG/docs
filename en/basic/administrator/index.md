@@ -18,7 +18,7 @@ parent: English
 - 64-bit (Windows 10+, Windows Server 2016+)
 
 ## Obtaining, installation and starting
-Download the release for your platform at <https://learn2rag.de/download>.
+Download the release for your platform at <https://learn2rag.de/downloads>.
 Extract the archive.
 ```sh
 unzip learn2rag-linux.zip
