@@ -167,8 +167,13 @@ An example with all supported options:
 flask:
   # Application data path
   instance_path: '/data/learn2rag'
-host: '0.0.0.0'
-port: 9000
+UI:
+  # Make administration interface available for others on any network (or specify yours)
+  host: '0.0.0.0'
+  port: 9000
+CHAT:
+  # Make chat interface available for others on any network (or specify yours)
+  host: '0.0.0.0'
 TLS:
   KEYFILE: '/absolute/path/key.pem'
   CERTFILE: '/absolute/path/fullchain.pem'
