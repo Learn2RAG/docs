@@ -67,7 +67,7 @@ sudo apt install libgl1 libmagic1
 ### Rust
 #### Debian 13
 ```sh
-apt install rustup
+sudo apt install rustup
 rustup default stable
 ```
 #### Debian 12
