@@ -9,6 +9,23 @@ parent: English
 ## Requirements
 ### Hardware
 #### Disk space
+Download size
+: 3 GB
+
+Unarchived size
+: 5.5 GB
+
+Additional space for installation
+: 17 GB
+
+LLM (Google Gemma 3 27b)
+: 17 GB
+
+Embedding model
+: 4.5 GB
+
+Storage for databases and temporary files
+: according to the size of your data
 
 ### Linux
 - 64-bit (kernel 3.2+, glibc 2.17+)
