@@ -33,7 +33,7 @@ Storage for databases and temporary files
 
 ### Windows
 - 64-bit (Windows 10+, Windows Server 2016+)
-- You might need to install http://aka.ms/vs/16/release/vc_redist.x64.exe
+- You might need to install https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
 
 ## Obtaining, installation and starting
 Download the release for your platform at <https://learn2rag.de/downloads>.
