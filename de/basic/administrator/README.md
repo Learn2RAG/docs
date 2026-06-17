@@ -56,20 +56,9 @@ Sprachmodell
 ### Datenquellen
 In diesem Untermenü werden existierende Datenquellen aufgeführt und es können neue Quellen konfiguriert werden. Dabei hat eine Datenquelle grundsätzlich einen Namen, den Sie frei wählen können, um später die Quelle auswählen zu können.
 
+Eine Liste der unterstützten Datenquellen finden sie [hier](data-sources.md)
+
 Auf dieser Seite werden die Datenquellen lediglich konfiguriert. Das Abrufen der eigentlichen Daten von der Quelle erfolgt in einem späteren Schritt, nachdem eine Pipeline konfiguriert und der Datenimport gestartet wurde.
-
-#### Dateien
-
-Fügen Sie lokale Verzeichnisse (auf demselben PC oder Server, auf dem Learn2RAG ausgeführt wird) hinzu.
-Zum Beispiel: `/home/user/Documents`, oder `C:\Users\User\Documents`.
-
-![configurator file source](/static/images/config-add-file-source.png)
-
-#### Webseiten
-
-Sie können auch Webseiten als Datenquellen hinzufügen. Zum Beispiel: `https://en.wikipedia.org/wiki/Berlin`.
-
-![configurator file source](/static/images/config-add-web-source.png)
 
 ### Pipelines
 Auf dieser Seite können sie eine oder mehrere RAG Pipelines konfigurieren, starten und stoppen.

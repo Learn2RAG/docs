@@ -52,13 +52,7 @@ Language model
 In this section the data sources are only configured.
 They are actually scanned or retrieved on a later stage, after a pipeline is configured and the import task is run.
 
-#### Files
-Add local (on the same PC or server where Learn2RAG is running) directories.
-For example: `/home/user/Documents`, `C:\Users\User\Documents`.
-
-#### Web pages
-Add URLs of web pages.
-For example: `https://en.wikipedia.org/wiki/Berlin`.
+The list of supported data sources can be found [here](data-sources.md)
 
 ### Pipelines
 #### Minimal configuration
