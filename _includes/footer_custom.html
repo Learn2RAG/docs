@@ -1,0 +1,108 @@
+<footer class="footer-gradient">
+    <div class="footer-inner">
+
+
+        <div class="footer-links">
+            <a href="https://learn2rag.de/">🔗 LEARN2RAG</a>
+            <a href="https://learn2rag.de/deliverables">📄 Deliverables</a>
+            <a href="https://learn2rag.de/impressum">📄 Impressum</a>
+            <a href="https://github.com/Learn2RAG" target="_blank">🐱 GitHub</a>
+            <a href="https://www.linkedin.com/company/learn2rag/" target="_blank">💼 LinkedIn</a>
+        </div>
+
+
+        <div class="footer-funded">
+            <img src="/static/images/BMWi.svg" alt="Gefördert durch BMBF">
+        </div>
+    </div>
+
+
+    <div class="footer-copy">
+        © {{ site.time | date: '%Y' }} Learn2RAG. Powered by Just the Docs.
+    </div>
+</footer>
+
+<style>
+    .footer-gradient {
+        background: linear-gradient(to right, #4c1d95, #7c3aed, #3b82f6);
+        color: white;
+        width: 100%;
+        padding: 2rem 0 1rem 0;
+        box-sizing: border-box;
+        margin-top: 2rem;
+        overflow-x: hidden;
+    }
+
+    .footer-inner {
+        width: 100%;
+        max-width: none;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-links i {
+        font-size: 1.1rem;
+    }
+
+
+    .footer-funded {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .footer-funded img {
+        width: 160px;
+        height: auto;
+        background: white;
+        padding: 0.5rem;
+        border-radius: 4px;
+    }
+
+
+    .footer-copy {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 0.9rem;
+        opacity: 0.9;
+    }
+
+
+    @media (max-width: 768px) {
+        .footer-inner {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .footer-funded {
+            align-items: center;
+            margin-top: 1rem;
+        }
+    }
+</style>

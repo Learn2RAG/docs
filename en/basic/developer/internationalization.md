@@ -1,3 +1,10 @@
+---
+layout: default
+title: Internationalization
+nav_order: 4
+permalink: /en/basic/developer/internationalization/
+parent: Developer Documentation
+---
 # Internationalization
 ## Overview
 We use [gettext](https://www.gnu.org/software/gettext/) and the corresponding Python libraries to support multiple languages for interface texts.

@@ -1,7 +1,13 @@
 ---
-title: Learn2RAG Administratordokumentation
-permalink: /de/basic/administrator/index.html
+layout: default
+nav_order: 1
+title: Administratorhandbuch
+permalink: /de/basic/Administratorhandbuch
+parent: Deutsch
 ---
+
+## Videoübersicht
+<video src="https://files.dice-research.org/projects/Learn2RAG/docs/de/basic/learn2rag-install-de.mp4" controls></video>
 
 ## Anforderungen
 ### Linux
@@ -11,7 +17,7 @@ permalink: /de/basic/administrator/index.html
 - 64-Bit (Windows 10+, Windows Server 2016+)
 
 ## Installation
-1. Laden Sie die Version für Ihre Plattform von <https://learn2rag.de/download> herunter.
+1. Laden Sie die Version für Ihre Plattform von <https://learn2rag.de/downloads> herunter.
 2. Extrahieren Sie das Archiv.
 3. Führen Sie die Datei namens `start` aus. 
 
@@ -56,7 +62,14 @@ Sprachmodell
 ### Datenquellen
 In diesem Untermenü werden existierende Datenquellen aufgeführt und es können neue Quellen konfiguriert werden. Dabei hat eine Datenquelle grundsätzlich einen Namen, den Sie frei wählen können, um später die Quelle auswählen zu können.
 
-Eine Liste der unterstützten Datenquellen finden sie [hier](data-sources.md)
+| Datenquelle | Unterstützt | Nutzerrechte unterstützt |
+|-------------|:----------:|:--------------------------:|
+| Dateisystem |    Ja      |            Nein            |
+| Webseiten   |    Ja      |            Nein            |
+| Microsoft   |    Ja      |            Nein            |
+| Drupal      |    Ja      |            Ja              |
+
+Details zu den unterstützten Datenquellen finden sie [hier](data-sources.md)
 
 Auf dieser Seite werden die Datenquellen lediglich konfiguriert. Das Abrufen der eigentlichen Daten von der Quelle erfolgt in einem späteren Schritt, nachdem eine Pipeline konfiguriert und der Datenimport gestartet wurde.
 

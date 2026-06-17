@@ -1,21 +1,56 @@
 ---
-title: Learn2RAG Administrator Documentation
-permalink: /en/basic/administrator/index.html
+layout: default
+title: Administrator Documentation
+nav_order: 1
+permalink: /en/basic/administrator/
+parent: English
 ---
 
 ## Requirements
+### Hardware
+#### Disk space
+Download size
+: 3 GB
+
+Unarchived size
+: 5.5 GB
+
+Additional space for installation
+: 17 GB
+
+LLM (Google Gemma 3 27b)
+: 17 GB
+
+Embedding model
+: 4.5 GB
+
+Storage for databases and temporary files
+: according to the size of your data
+
 ### Linux
 - 64-bit (kernel 3.2+, glibc 2.17+)
 - You might need to install the following libraries from your distribution's package manager: `libgl1 libmagic1`. On a Debian or Ubuntu system, you can do that using `sudo apt install libgl1 libmagic1`.
 
 ### Windows
 - 64-bit (Windows 10+, Windows Server 2016+)
+- You might need to install https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
 
 ## Obtaining, installation and starting
-Download the release for your platform at <https://learn2rag.de/download>.
+Download the release for your platform at <https://learn2rag.de/downloads>.
 Extract the archive.
-Run the file named `start`.
+```sh
+unzip learn2rag-linux.zip
+cd learn2rag-linux
+```
+
+Run the file named `start` either with a right mouse click and "Execute" or in a terminal.
+```sh
+./start
+```
+
 On the first run, Python environment and dependencies would be prepared, so it can take some time.
+Expected first start time:
+| Powerful server | 10 min |
 
 ## Configuration
 ### First run wizard
@@ -52,7 +87,14 @@ Language model
 In this section the data sources are only configured.
 They are actually scanned or retrieved on a later stage, after a pipeline is configured and the import task is run.
 
-The list of supported data sources can be found [here](data-sources.md)
+| Data source | Supported | User Rights Supported |
+|-------------|:---------:|:---------------------:|
+| File system |    Yes    |           No          |
+| Webpages    |    Yes    |           No          |
+| Microsoft   |    Yes    |           No          |
+| Drupal      |    Yes    |          Yes          |
+
+More details about the supported data sources can be found [here](data-sources.md)
 
 ### Pipelines
 #### Minimal configuration
@@ -112,6 +154,28 @@ An example with all supported options:
 flask:
   # Application data path
   instance_path: '/data/learn2rag'
+UI:
+  # Make administration interface available for others on any network (or specify yours)
+  host: '0.0.0.0'
+  port: 9000
+CHAT:
+  # Make chat interface available for others on any network (or specify yours)
+  host: '0.0.0.0'
+TLS:
+  KEYFILE: '/absolute/path/key.pem'
+  CERTFILE: '/absolute/path/fullchain.pem'
+SIMPLE_AUTH:
+  # Must be a valid e-mail format
+  username: user@localhost
+  password: 123
+logging:
+  # Save detailed debug logs
+  debug: true
+# Ports which would be preferred by default for additional services
+PREFERRED_PORTS:
+  - 5001
+  - 5002
+  - 5003
 SUGGESTED_MODELS:
   local-chat:
     label: Local LLM configuration
@@ -122,3 +186,7 @@ SUGGESTED_MODELS:
       model: gemma-3-27b-it
       token: xxx
 ```
+
+## Troubleshooting
+### Remove application and user data storage
+<#data-storage-locations>
