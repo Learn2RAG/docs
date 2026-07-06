@@ -92,6 +92,8 @@ Nachdem eine Pipeline Pipeline konfiguriert wurde, können Sie diese Pipeline nu
 ### Datenimport
 Sobald der Import gestartet wurde verarbeitet die Pipeline alle Daten der ausgewählten Datenquellen. Nach dem Start des Imports müssen Sie warten, bis dieser abgeschlossen ist.
 
+> **Hinweis:** Der Import großer Datenmengen kann sehr viel Zeit in Anspruch nehmen.
+
 ### Starten der Pipeline
 Durch die Auswahl eine Pipeline zu starten werden die erforderlichen Komponenten der Pipeline erzeugt und gestartet.
 

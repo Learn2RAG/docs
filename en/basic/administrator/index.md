@@ -120,6 +120,8 @@ After at least one language model, data source and pipeline are configured, you 
 Import task would process all selected data sources.
 After starting, you would need to wait until it is done.
 
+> **Note:** Importing a large volume of data can take a significant amount of time.
+
 ### Using the system
 Pipeline task would start the necessary components.
 After starting, use "Open" button to open the user interface.
