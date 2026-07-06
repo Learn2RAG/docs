@@ -63,6 +63,9 @@ Learn2RAG can download and deploy a language model.
 That is done with Ollama which is automatically started.
 An overview of available models: <https://ollama.com/library>.
 
+##### Air-gapped / Offline Environments
+If your deployment machine has no internet access, you cannot download models via the built-in wizard. You must manually transfer Ollama and the model files. See the [Offline Ollama Setup Guide](offline-ollama.md) for step-by-step instructions.
+
 ##### Suggested language models
 A short list of suggested language models to download is provided for a quick start.
 
