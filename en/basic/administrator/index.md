@@ -100,6 +100,8 @@ More details about the supported data sources can be found [here](data-sources.m
 #### Minimal configuration
 To create a pipeline, you need to specify the storage directory where the system would save all related data, and choose which configured language models and data sources should be used.
 
+> **Note:** By default, the pipeline storage path is located in the user data directory of the user running Learn2RAG (see [Data storage locations](#Data-storage-locations)). However, any accessible path on your system can be used.
+
 #### Optional configuration
 ##### Ports
 You can specify which ports should pipeline components use.

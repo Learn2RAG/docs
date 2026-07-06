@@ -77,6 +77,9 @@ Auf dieser Seite werden die Datenquellen lediglich konfiguriert. Das Abrufen der
 Auf dieser Seite können sie eine oder mehrere RAG Pipelines konfigurieren, starten und stoppen.
 #### Minimale Konfiguration
 Um eine Pipeline zu erstellen, müssen Sie das Speicherverzeichnis angeben, in dem das System alle zugehörigen Daten speichert, und auswählen, welches konfigurierte Sprachmodelle und welche Datenquellen verwendet werden sollen.
+
+> **Hinweis:** Standardmäßig befindet sich der Pipeline-Speicherpfad im Benutzerdatenverzeichnis des Benutzers, der Learn2RAG ausführt (siehe [Speicherorte für Daten](#Datenspeicherorte)). Es kann jedoch jeder zugängliche Pfad auf Ihrem System verwendet werden.
+
 #### Optionale Konfiguration
 ##### Ports
 Sie können angeben, welche Ports die Pipeline-Komponenten verwenden sollen.
