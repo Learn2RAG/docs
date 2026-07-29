@@ -23,6 +23,8 @@ parent: Deutsch
 
 🛈 Beim ersten Start werden die Python-Umgebung und die Abhängigkeiten vorbereitet, was einige Zeit in Anspruch nehmen kann.
 
+### für Offline-Embeddings siehe hier [offline-embeddings](offline-embeddings)
+
 ## Konfiguration
 Die Konfiguration der Learn2RAG Software ist als Weboberfläche gestaltet und kann über den Browser geöffnet werden. Dies sollte nach Ausführung des Start-Befehls automatisch geschehen. Falls dies nicht geschieht finden Sie in der Ausgabe des Start-Befehls die URL, die Sie mit ihrem Browser öffnen können, um die Benutzeroberfläche zur Konfiguration zu öffnen.
 

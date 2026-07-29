@@ -52,6 +52,8 @@ On the first run, Python environment and dependencies would be prepared, so it c
 Expected first start time:
 | Powerful server | 10 min |
 
+### for offline embeddings see here [offline-embeddings](offline-embeddings)
+
 ## Configuration
 ### First run wizard
 On a first run before you created any configurations, a first run wizard is displayed which can be used to create a minimally working configuration.
