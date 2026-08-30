@@ -50,6 +50,10 @@ Eine kurze Liste empfohlener Sprachmodelle zum Herunterladen wird für einen sch
 #### Externe Sprachmodelle
 Ein externes (lokales oder Remote-) Sprachmodell kann verwendet werden, wenn es über eine OpenAI- oder Ollama-kompatible API verfügbar ist.
 Sie benötigen eine API-URL und (falls erforderlich) ein Zugriffstoken.
+
+##### Air-Gapped- / Offline-Umgebungen
+Wenn der Zielrechner keinen Internetzugang hat, können Sie Modelle nicht über den integrierten Assistenten herunterladen. Sie müssen Ollama und die Modelldateien manuell übertragen. Eine Schritt-für-Schritt-Anleitung finden Sie im [Leitfaden zur Offline-Einrichtung von Ollama](offline-ollama.md).
+
 ##### OpenAI's ChatGPT
 API-Typ
 : ChatOpenAI
