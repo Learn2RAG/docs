@@ -34,6 +34,14 @@ Storage for databases and temporary files
 ### Windows
 - 64-bit (Windows 10+, Windows Server 2016+)
 - You might need to install https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+  
+**Troubleshooting: Path Length Error**
+  If you encounter `Could not install packages due to an OSError: [WinError 206] The filename or extension is too long` (or `Der Dateiname oder die Erweiterung ist zu lang`), you need to enable long path support in Windows:
+
+1. Press `Win + R`, type `regedit`, and press **Enter**.
+2. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`.
+3. Find the `LongPathsEnabled` value and double-click it. *(If it doesn't exist: right-click an empty space, select **New > DWORD (32-bit) Value**, and name it `LongPathsEnabled`)*.
+4. Change the **Value data** to `1` and click **OK**.
 
 ## Obtaining, installation and starting
 Download the release for your platform at <https://learn2rag.de/downloads>.
