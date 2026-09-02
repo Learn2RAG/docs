@@ -15,15 +15,15 @@ parent: Deutsch
 - Möglicherweise müssen Sie die folgenden Bibliotheken über den Paketmanager Ihrer Distribution installieren: `libgl1 libmagic1`. Auf einem Debian- oder Ubuntu-System können Sie dies mit `sudo apt install libgl1 libmagic1` tun.
 ### Windows
 - 64-bit (Windows 10+, Windows Server 2016+)
-- Möglicherweise musst du [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) installieren.
+- Möglicherweise müssen Sie [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) installieren.
 
 **Fehlerbehebung: Pfadlänge zu lang**
-Wenn der Fehler `Could not install packages due to an OSError: [WinError 206] Der Dateiname oder die Erweiterung ist zu lang` auftritt, musst du die Unterstützung für lange Dateipfade in Windows aktivieren:
+Wenn der Fehler `Could not install packages due to an OSError: [WinError 206] Der Dateiname oder die Erweiterung ist zu lang` auftritt, müssen Sie die Unterstützung für lange Dateipfade in Windows aktivieren:
 
-1. Drücke `Win + R`, tippe `regedit` ein und drücke **Enter**.
-2. Navigiere zu `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`.
-3. Suche den Wert `LongPathsEnabled` und mache einen Doppelklick darauf. *(Falls nicht vorhanden: Rechtsklick in einen leeren Bereich, **Neu > DWORD-Wert (32-Bit)** wählen und `LongPathsEnabled` nennen)*.
-4. Ändere den **Wert** auf `1` und klicke auf **OK**.
+1. Drücken Sie `Win + R`, geben Sie `regedit` ein und drücken Sie **Enter**.
+2. Navigieren Sie zu `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`.
+3. Suchen Sie den Wert `LongPathsEnabled` und machen Sie einen Doppelklick darauf. *(Falls nicht vorhanden: Rechtsklick in einen leeren Bereich, **Neu > DWORD-Wert (32-Bit)** wählen und `LongPathsEnabled` nennen)*.
+4. Setzen Sie den **Wert** auf `1` und klicken Sie auf **OK**.
 
 ## Installation
 1. Laden Sie die Version für Ihre Plattform von <https://learn2rag.de/downloads> herunter.
