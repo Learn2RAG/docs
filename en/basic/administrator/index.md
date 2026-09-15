@@ -10,20 +10,32 @@ has_children: true
 ## Requirements
 ### Hardware
 #### Disk space
+##### Linux
 Download size
-: 3 GB
+: 7 GB
 
 Unarchived size
-: 5.5 GB
+: 10 GB
 
 Additional space for installation
-: 17 GB
+: 10 GB
+
+##### Windows
+Download size
+: 2.5 GB
+
+Unarchived size
+: 4 GB
+
+Additional space for installation
+: 4 GB
+
+##### Additional space
+Embedding model
+: 4.5 GB
 
 LLM (Google Gemma 3 27b)
 : 17 GB
-
-Embedding model
-: 4.5 GB
 
 Storage for databases and temporary files
 : according to the size of your data
