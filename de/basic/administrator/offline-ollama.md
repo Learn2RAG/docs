@@ -3,7 +3,7 @@ layout: default
 title: Offline-Einrichtung von Ollama & Modellen
 nav_order: 2
 permalink: /de/basic/administrator/offline-ollama/
-parent: Administrator-Dokumentation
+parent: Administratorhandbuch
 ---
 
 # Offline-Einrichtung von Ollama und Modellen
