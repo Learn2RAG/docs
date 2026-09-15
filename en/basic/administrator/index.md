@@ -183,18 +183,21 @@ UI:
   # Make administration interface available for others on any network (or specify yours)
   host: '0.0.0.0'
   port: 9000
+SIMPLE_AUTH:
+  # Credentials for the administrator interface
+  username: admin
+  password: 123
 CHAT:
   # Make chat interface available for others on any network (or specify yours)
   host: '0.0.0.0'
+  # Credentials for the user interface
+  username: user
+  password: 456
 TLS:
   KEYFILE: '/absolute/path/key.pem'
   CERTFILE: '/absolute/path/fullchain.pem'
-SIMPLE_AUTH:
-  # Must be a valid e-mail format
-  username: user@localhost
-  password: 123
 logging:
-  # Save detailed debug logs
+  # Display and save detailed debug logs
   debug: true
 # Ports which would be preferred by default for additional services
 PREFERRED_PORTS:
