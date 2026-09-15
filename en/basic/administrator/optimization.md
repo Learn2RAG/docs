@@ -1,3 +1,11 @@
+---
+layout: default
+title: Optimization
+nav_order: 10
+permalink: /de/basic/administrator/optimization.html
+parent: Administrator Documentation
+---
+
 ## Optimization
 
 Learn2RAG provides an optimization process to automatically find a suitable configuration for the RAG pipeline.
