@@ -4,6 +4,7 @@ title: Administrator Documentation
 nav_order: 1
 permalink: /en/basic/administrator/
 parent: English
+has_children: true
 ---
 
 ## Requirements

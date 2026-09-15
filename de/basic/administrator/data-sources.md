@@ -1,6 +1,7 @@
 ---
 title: Datenquellen
 permalink: /de/basic/administrator/data-sources.html
+parent: Administratorhandbuch
 ---
 
 ## Dateisystem
