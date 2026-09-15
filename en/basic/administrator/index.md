@@ -79,17 +79,6 @@ On a first run before you created any configurations, a first run wizard is disp
 You can follow the steps to set up a basic example configuration.
 
 ### Language models
-#### Downloadable language models
-Learn2RAG can download and deploy a language model.
-That is done with Ollama which is automatically started.
-An overview of available models: <https://ollama.com/library>.
-
-##### Air-gapped / Offline Environments
-If your deployment machine has no internet access, you cannot download models via the built-in wizard. You must manually transfer Ollama and the model files. See the [Offline Ollama Setup Guide](offline-ollama.md) for step-by-step instructions.
-
-##### Suggested language models
-A short list of suggested language models to download is provided for a quick start.
-
 #### External language models
 An external (local or remote) language model can be used if it's available with OpenAI or Ollama compatible API.
 You would need an API URL and (if required) an access token.
@@ -106,6 +95,17 @@ Access token
 
 Language model
 : `gpt-4o` or other
+
+#### Downloadable language models
+Learn2RAG can download and deploy a language model.
+That is done with Ollama which is automatically started.
+An overview of available models: <https://ollama.com/library>.
+
+##### Air-gapped / Offline Environments
+If your deployment machine has no internet access, you cannot download models via the built-in wizard. You must manually transfer Ollama and the model files. See the [Offline Ollama Setup Guide](offline-ollama.md) for step-by-step instructions.
+
+##### Suggested language models
+A short list of suggested language models to download is provided for a quick start.
 
 ### Data sources
 In this section the data sources are only configured.
