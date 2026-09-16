@@ -59,6 +59,7 @@ Storage for databases and temporary files
 ## Obtaining, installation and starting
 Download the release for your platform at <https://learn2rag.de/downloads>.
 Extract the archive.
+You will need to keep this directory to run Learn2RAG.
 ```sh
 unzip learn2rag-linux.zip
 cd learn2rag-linux
