@@ -123,7 +123,20 @@ Die Pipeline kann aber auch über eine API in bestehende Software eingebunden we
 3. Installieren Sie diese Version wie oben beschrieben.
 
 ## Deinstallation
-Führen Sie die Datei namens `uninstall` aus. Dadurch werden automatisch erstellte Anwendungsdateien entfernt, Ihre Konfigurationsdaten und heruntergeladenen Modelle jedoch an ihrem Speicherort belassen.
+Um Learn2RAG zu deinstallieren, können Sie entweder das zentrale Deinstallationsskript ausführen oder gezielt einzelne Komponenten über separate Skripte entfernen.
+
+### Interaktive Deinstallation
+
+Führen Sie die Datei uninstall (Linux) bzw. uninstall.bat (Windows) aus.
+
+Dadurch werden alle Anwendungs-Runtimes und Abhängigkeiten entfernt. Anschließend werden Sie gefragt, ob auch Ihre persönlichen Benutzerdaten gelöscht werden sollen.
+
+### Selective Uninstall
+
+Falls Sie gezielte oder nicht-interaktive Schritte bevorzugen:
+
+- remove-learn2rag-data: Entfernt ausschließlich Programmdateien, Laufzeitumgebungen und Pipelines. Ihre Konfigurationen, Datenbanken, Chats und Modelle bleiben erhalten.
+- remove-user-data: Löscht Ihre persönlichen Konfigurationsdateien, Vektordatenbanken und lokalen Daten unwiderruflich (erfordert eine Bestätigung, sofern nicht mit -y aufgerufen).
 
 ## Datenspeicherorte
 ### Linux

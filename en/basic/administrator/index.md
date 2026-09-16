@@ -157,8 +157,18 @@ After starting, use "Open" button to open the user interface.
 Run the file named `uninstall` before or after extracting a new version of the system.
 
 ## Uninstallation
-Run the file named `uninstall`.
-That would remove automatically created application files, but leave your configuration data and downloaded models in place.
+To uninstall Learn2RAG, you can either run the main uninstall script or target specific components using the dedicated scripts.
+
+### Interactive Uninstall
+
+Run the file named uninstall (Linux) or uninstall.bat (Windows).
+This removes all application runtimes and dependencies, then prompts whether you also want to delete your personal user data.
+
+### Selective Uninstall
+If you prefer running non-interactive or targeted steps:
+    
+-  remove-learn2rag-data: Removes only the application binaries, runtime environments, and Open-WebUI pipelines. Your configurations, databases, chats, and models remain untouched.
+-  remove-user-data: Permanently deletes your personal configurations, vector stores, and local databases (asks for confirmation unless invoked with -y).
 
 ## Data storage locations
 ### Linux
