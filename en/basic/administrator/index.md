@@ -181,7 +181,8 @@ You can create `config.yml` file next to the `start` file.
 An example with all supported options:
 ```yml
 flask:
-  # Application data path
+  # Application data path for user data, downloads (LLMs)
+  # Also used as a default storage path
   instance_path: '/data/learn2rag'
 UI:
   # Make administration interface available for others on any network (or specify yours)
