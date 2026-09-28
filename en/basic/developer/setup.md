@@ -22,10 +22,7 @@ pipx ensurepath
 source ~/.bashrc
 
 pipx install uv
-uv python install 3.11.13
 uv python install 3.13.5
-
-pipx install poetry
 ```
 
 ### Dependencies
@@ -64,6 +61,7 @@ sudo apt install libgl1 libmagic1
 ```
 
 ## Dependencies for building the packages
+Not required in development setup.
 ### Rust
 #### Debian 13
 ```sh
