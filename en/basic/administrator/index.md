@@ -150,7 +150,7 @@ After starting, you would need to wait until it is done.
 > **Note:** Importing a large volume of data can take a significant amount of time.
 
 ### Using the system
-Pipeline task would start the necessary components.
+Pipeline task would start the necessary components .
 After starting, use "Open" button to open the user interface.
 
 ## Updating
