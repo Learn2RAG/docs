@@ -1,0 +1,32 @@
+name: Notify on Docs Update
+on:
+  push:
+    paths:
+      - 'en/**/*.md'
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Webhook
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+          --data '{
+            "type": "message",
+            "attachments": [
+              {
+                "contentType": "application/vnd.microsoft.card.adaptive",
+                "content": {
+                  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                  "type": "AdaptiveCard",
+                  "version": "1.2",
+                  "body": [
+                    {
+                      "type": "TextBlock",
+                      "text": "The English docs were updated. Please check if the German translation needs an update: https://github.com/Learn2RAG/docs/commits/master"
+                    }
+                  ]
+                }
+              }
+            ]
+          }' \
+          'https://default2ef9632776804058bebe833b64e886.75.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/30/workflows/ec682d76f995491396ba65568bd51972/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=qmnwNc7JUQ_J1O-s-E4TAp2u--uEcsQFge4Dq6yS7HI'
