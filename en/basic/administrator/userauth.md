@@ -19,6 +19,7 @@ Before starting any configuration, you need to know a full URL for the pipeline 
 Example: if users can access Learn2RAG using `learn2rag.example.com` on port `9050` with TLS, the resulting URL would be `https://learn2rag.example.com:9050/`
 
 #### Create OAuth consumer in your data source
+This configuration is done in your other system, such as Drupal, not in Learn2RAG.
 - client ID: your choice
 - client secret: your choice
 - redirect URL: application URL combined with `auth/oauth/callback`, for example `https://learn2rag.example.com:9050/auth/oauth/callback`
