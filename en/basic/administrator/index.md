@@ -7,6 +7,10 @@ parent: English
 has_children: true
 ---
 
+## Video overview
+*(Note: The following video is in German)*
+<video src="https://files.dice-research.org/projects/Learn2RAG/docs/de/basic/learn2rag-install-de.mp4" controls></video>
+
 ## Requirements
 ### Hardware
 #### Disk space
@@ -47,9 +51,9 @@ Storage for databases and temporary files
 ### Windows
 - 64-bit (Windows 10+, Windows Server 2016+)
 - You might need to install https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
-  
+
 **Troubleshooting: Path Length Error**
-  If you encounter `Could not install packages due to an OSError: [WinError 206] The filename or extension is too long` (or `Der Dateiname oder die Erweiterung ist zu lang`), you need to enable long path support in Windows:
+If you encounter `Could not install packages due to an OSError: [WinError 206] The filename or extension is too long` (or `Der Dateiname oder die Erweiterung ist zu lang`), you need to enable long path support in Windows:
 
 1. Press `Win + R`, type `regedit`, and press **Enter**.
 2. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem`.
@@ -75,14 +79,20 @@ Expected first start time:
 | Powerful server | 10 min |
 
 ## Configuration
+The configuration of the Learn2RAG software is designed as a web interface and can be opened via a browser. This should happen automatically after executing the start command. If this does not happen, you will find the URL in the output of the start command, which you can open with your browser to access the configuration user interface.
+
+![configurator main screen](/static/images/config-main-screen.png)
+
+The interface of the configurator is divided into 3 areas: [Language models](#Language-models), [Data sources](#Data-sources), and [Pipelines](#Pipelines). Additionally, when starting for the first time, a wizard is displayed at the top to assist in creating a first RAG pipeline. These areas are detailed below.
+
+Learn2RAG includes English and German interface localization. The localization is chosen according to your web browser's settings. Refer to your web browser's documentation for the details.
+
 ### First run wizard
-On a first run before you created any configurations, a first run wizard is displayed which can be used to create a minimally working configuration.
-You can follow the steps to set up a basic example configuration.
+On a first run before you created any configurations, a first run wizard is displayed which can be used to create a minimally working configuration. You can follow the steps to set up a basic example configuration.
 
 ### Language models
 #### External language models
-An external (local or remote) language model can be used if it's available with OpenAI or Ollama compatible API.
-You would need an API URL and (if required) an access token.
+An external (local or remote) language model can be used if it's available with OpenAI or Ollama compatible API. You would need an API URL and (if required) an access token.
 
 ##### OpenAI's ChatGPT
 API type
@@ -98,9 +108,7 @@ Language model
 : `gpt-4o` or other
 
 #### Downloadable language models
-Learn2RAG can download and deploy a language model.
-That is done with Ollama which is automatically started.
-An overview of available models: <https://ollama.com/library>.
+Learn2RAG can download and deploy a language model. That is done with Ollama which is automatically started. An overview of available models: <https://ollama.com/library>.
 
 ##### Air-gapped / Offline Environments
 If your deployment machine has no internet access, you cannot download models via the built-in wizard. You must manually transfer Ollama and the model files. See the [Offline Ollama Setup Guide](offline-ollama.md) for step-by-step instructions.
@@ -109,8 +117,7 @@ If your deployment machine has no internet access, you cannot download models vi
 A short list of suggested language models to download is provided for a quick start.
 
 ### Data sources
-In this section the data sources are only configured.
-They are actually scanned or retrieved on a later stage, after a pipeline is configured and the import task is run.
+In this submenu, existing data sources are listed and new ones can be configured. A data source basically has a name that you can freely choose in order to select the source later.
 
 | Data source | Supported | User Rights Supported |
 |-------------|:---------:|:---------------------:|
@@ -121,7 +128,11 @@ They are actually scanned or retrieved on a later stage, after a pipeline is con
 
 More details about the supported data sources can be found [here](data-sources.md)
 
+In this section the data sources are only configured. They are actually scanned or retrieved at a later stage, after a pipeline is configured and the import task is run.
+
 ### Pipelines
+On this page, you can configure, start, and stop one or more RAG pipelines.
+
 #### Minimal configuration
 To create a pipeline, you need to specify the storage directory where the system would save all related data, and choose which configured language models and data sources should be used.
 
@@ -129,36 +140,31 @@ To create a pipeline, you need to specify the storage directory where the system
 
 #### Optional configuration
 ##### Ports
-You can specify which ports should pipeline components use.
-If skipped, the system would try to find an available port automatically.
+You can specify which ports should pipeline components use. If skipped, the system would try to find an available port automatically.
 
 ##### Importing data
 You can set or unset an option to run the data import as soon as you configure the pipeline.
 
-### Interface language
-Learn2RAG includes English and German interface localization.
-The localization is chosen according to your web browser's settings.
-Refer to your web browser's documentation for the details.
-
 ## Usage
-After at least one language model, data source and pipeline are configured, you can start tasks related to the pipeline.
+After at least one language model, data source, and pipeline are configured, you can now control this pipeline. The data import should be started first, otherwise the pipeline will have no data to work with.
+
+![configurator pipeline start](/static/images/config-pipeline-start.png)
 
 ### Importing data
-Import task would process all selected data sources.
-After starting, you would need to wait until it is done.
+The import task would process all selected data sources. After starting, you would need to wait until it is done.
 
 > **Note:** Importing a large volume of data can take a significant amount of time.
 
 ### Using the system
-Pipeline task would start the necessary components .
-After starting, use "Open" button to open the user interface.
+The pipeline task would start the necessary components. After starting, use the "Open" button to open the user interface.
 
 ## Updating
-Run the file named `uninstall` before or after extracting a new version of the system.
+1. Run the file named `uninstall`.
+2. Download the new version of the Learn2RAG software.
+3. Install this version as described above.
 
 ## Uninstallation
-Run the file named `uninstall`.
-That would remove automatically created application files, but leave your configuration data and downloaded models in place.
+Run the file named `uninstall`. That would remove automatically created application files, but leave your configuration data and downloaded models in place.
 
 ## Data storage locations
 ### Linux
@@ -176,7 +182,7 @@ That would remove automatically created application files, but leave your config
 : User data
 
 ## Advanced configuration
-You can create `config.yml` file next to the `start` file.
+You can create a `config.yml` file next to the `start` file.
 
 An example with all supported options:
 ```yml
