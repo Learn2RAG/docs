@@ -10,6 +10,8 @@ parent: Administratorhandbuch
 Fügen Sie lokale Verzeichnisse (auf demselben PC oder Server, auf dem Learn2RAG läuft) hinzu.
 Zum Beispiel: `/home/user/Documents`, `C:\Users\User\Documents`.
 
+![configurator file source](/static/images/config-add-file-source.png)
+
 ### Unterstützte Dateitypen
 * **`.docx`**
 * **`.pptx`**
@@ -28,6 +30,8 @@ Zum Beispiel: `/home/user/Documents`, `C:\Users\User\Documents`.
 ## Webseiten
 Fügen Sie URLs von Webseiten hinzu.
 Zum Beispiel: `https://en.wikipedia.org/wiki/Berlin`. Client-seitig durch JavaScript erzeugte Inhalte werden nicht ausgeführt oder ausgewertet.
+
+![configurator file source](/static/images/config-add-web-source.png)
 
 ## Microsoft
 Sie können eine SharePoint-Sammlung als Dokumentenquelle hinzufügen.

@@ -195,6 +195,8 @@ Sie können über eine Checkbox festlegen, ob der Datenimport direkt nach der Ko
 
 Nachdem eine Pipeline konfiguriert wurde, können Sie diese Pipeline nun steuern. Dabei sollte zunächst der Datenimport gestartet werden, da die Pipeline sonst keinerlei Daten für ihre Arbeit hat.
 
+![configurator pipeline start](/static/images/config-pipeline-start.png)
+
 ### Datenimport
 
 Sobald der Import gestartet wurde verarbeitet die Pipeline alle Daten der ausgewählten Datenquellen. Nach dem Start des Imports müssen Sie warten, bis dieser abgeschlossen ist.
