@@ -8,7 +8,9 @@ has_children: true
 permalink: /de/basic/user/
 parent: Deutsch
 ---
+Die Learn2RAG Software kommt mit der quelloffenen [OpenWeb UI](https://openwebui.com/) Benutzeroberfläche. Diese ist sehr einfach zu bedienen und kann nach dem Start einer RAG Pipeline verwendet werden.
 
+![Main screen](/static/images/openweb-ui-screen.png)
 
 
 Die Hauptoberfläche von Learn2RAG bietet ein Eingabefeld in der Mitte des Fensters.

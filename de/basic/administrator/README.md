@@ -104,11 +104,24 @@ Learn2RAG beinhaltet englische und deutsche Lokalisierungen der Benutzeroberflä
 Die Lokalisierung wird gemäß den Einstellungen Ihres Webbrowsers ausgewählt.
 Weitere Details finden Sie in der Dokumentation Ihres Webbrowsers.
 
+### Oberflächensprache
+Learn2RAG beinhaltet englische und deutsche Lokalisierungen der Benutzeroberfläche.
+Die Lokalisierung wird gemäß den Einstellungen Ihres Webbrowsers ausgewählt.
+Weitere Details finden Sie in der Dokumentation Ihres Webbrowsers.
+
 ### Assistent für den ersten Start
 
 Beim ersten Start, bevor Sie Konfigurationen erstellt haben, wird ein Assistent im oberen Bereich der Seite angezeigt. Dieser hilft Ihnen dabei in wenigen Schritten eine einfache RAG Pipeline zu erstellen. Folgen Sie einfach den vorgegebenen Schritten, um eine grundlegende Beispielkonfiguration einzurichten.
 
 ### Sprachmodelle
+
+#### Herunterladbare Sprachmodelle
+Learn2RAG kann ein Sprachmodell herunterladen und bereitstellen.
+Dies geschieht mit Ollama, das automatisch gestartet wird.
+
+Eine kurze Liste empfohlener Sprachmodelle zum Herunterladen wird für einen schnellen Start bereitgestellt. Sie können aber auch jedes andere von Ollama unterstützte Modell auswählen. Eine Übersicht über verfügbare Modelle finden Sie unter: <https://ollama.com/library>.
+
+🛈 Beachten Sie bitte, dass einige Modelle hohe Anforderungen an die zur Verfügung gestellt Hardware haben können.
 
 #### Externe Sprachmodelle
 

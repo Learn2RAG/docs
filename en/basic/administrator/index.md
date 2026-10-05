@@ -86,11 +86,24 @@ The configuration of the Learn2RAG software is designed as a web interface and c
 The interface of the configurator is divided into 3 areas: [Language models](#Language-models), [Data sources](#Data-sources), and [Pipelines](#Pipelines). Additionally, when starting for the first time, a wizard is displayed at the top to assist in creating a first RAG pipeline. These areas are detailed below.
 
 Learn2RAG includes English and German interface localization. The localization is chosen according to your web browser's settings. Refer to your web browser's documentation for the details.
+### Interface language
+Learn2RAG includes English and German interface localization.
+The localization is chosen according to your web browser's settings.
+Refer to your web browser's documentation for the details.
 
 ### First run wizard
 On a first run before you created any configurations, a first run wizard is displayed which can be used to create a minimally working configuration. You can follow the steps to set up a basic example configuration.
 
 ### Language models
+
+#### Downloadable language models
+Learn2RAG can download and deploy a language model.
+That is done with Ollama which is automatically started.
+
+A short list of suggested language models to download is provided for a quick start. However, you can also select any other model supported by Ollama. An overview of available models can be found at: <https://ollama.com/library>.
+
+🛈 Please note that some models can have high requirements for the provided hardware.
+
 #### External language models
 An external (local or remote) language model can be used if it's available with OpenAI or Ollama compatible API. You would need an API URL and (if required) an access token.
 
