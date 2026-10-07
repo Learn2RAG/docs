@@ -1,10 +1,8 @@
-
-
 ---
 layout: default
-title: Internationalization
+title: Internationalisierung
 nav_order: 4
-permalink: /en/basic/developer/internationalization/
+permalink: /en/basic/developer/Internationalisierung/
 parent: Entwicklerdokumentation
 ---
 # Internationalisierung

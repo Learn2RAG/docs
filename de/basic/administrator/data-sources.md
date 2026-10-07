@@ -1,10 +1,11 @@
-
-
 ---
+layout: default
 title: Datenquellen
 permalink: /de/basic/administrator/data-sources.html
 parent: Administratorhandbuch
+nav_order: 4
 ---
+
 
 ## Dateisystem
 Fügen Sie lokale Verzeichnisse (auf demselben PC oder Server, auf dem Learn2RAG läuft) hinzu.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Offline Ollama & Model Setup
-nav_order: 2
+nav_order: 1
 permalink: /en/basic/administrator/offline-ollama/
 parent: Administrator Documentation
 ---

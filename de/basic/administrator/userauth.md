@@ -1,9 +1,9 @@
-
-
 ---
-title: Data source with user authorization
+title: Benutzerautorisierung
 permalink: /de/basic/administrator/userauth.html
 parent: Administratorhandbuch
+layout: default
+nav_order: 15
 ---
 
 Benutzerautorisierung wird verwendet, um zu begrenzen, welche Benutzer auf welche Dokumente zugreifen dürfen.
