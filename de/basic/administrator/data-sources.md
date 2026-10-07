@@ -1,3 +1,5 @@
+
+
 ---
 title: Datenquellen
 permalink: /de/basic/administrator/data-sources.html
@@ -5,9 +7,8 @@ parent: Administratorhandbuch
 ---
 
 ## Dateisystem
-
-Fügen Sie lokale Verzeichnisse (auf demselben PC oder Server, auf dem Learn2RAG ausgeführt wird) hinzu.
-Zum Beispiel: `/home/user/Documents`, oder `C:\Users\User\Documents`.
+Fügen Sie lokale Verzeichnisse (auf demselben PC oder Server, auf dem Learn2RAG läuft) hinzu.
+Zum Beispiel: `/home/user/Documents`, `C:\Users\User\Documents`.
 
 ![configurator file source](/static/images/config-add-file-source.png)
 
@@ -24,16 +25,16 @@ Zum Beispiel: `/home/user/Documents`, oder `C:\Users\User\Documents`.
 * **`.odt`**
 * **`.epub`**
 
-> Für einige Dateitypen würde die Bibliothek Pandoc benötigt - wenn diese nicht auf dem System installiert ist, wird eine interaktive Installation angestoßen. Für eine nutzerspezifische Installation wird empfohlen, die Bibliothek vorab zu installieren.
- 
-## Webseiten
+> Pandoc wird für einige Dateitypen benötigt. Falls es nicht vorhanden ist, wird der Benutzer informiert und das System versucht, es interaktiv zu installieren. Wenn Sie die Installationsparameter, wie den Installationsort, auswählen möchten, installieren Sie Pandoc bitte vorab.
 
-Sie können auch Webseiten als Datenquellen hinzufügen. Zum Beispiel: `https://en.wikipedia.org/wiki/Berlin`. Das Auslesen ist auf die HTML-Inhalte begrenzt, dynamisch generierter Seiteninhalt (z.B. Client-seitiges Javascript) wird nicht ausgewertet.
+## Webseiten
+Fügen Sie URLs von Webseiten hinzu.
+Zum Beispiel: `https://en.wikipedia.org/wiki/Berlin`. Client-seitig durch JavaScript erzeugte Inhalte werden nicht ausgeführt oder ausgewertet.
 
 ![configurator file source](/static/images/config-add-web-source.png)
 
 ## Microsoft
-Sie können Daten aus einer Sharepoint Sammlung hinzufügen.
+Sie können eine SharePoint-Sammlung als Dokumentenquelle hinzufügen.
 
 ### Unterstützte Dateitypen
 * **`.pptx`**
@@ -45,9 +46,8 @@ Sie können Daten aus einer Sharepoint Sammlung hinzufügen.
 * **`.md`**
 
 ## Drupal
-Sie können Daten aus Ihrer Drupal Webseite hinzufügen.
+Sie können Ihre Drupal-Website als Datenquelle hinzufügen.
 
 ### Unterstützter Inhalt
-* alle Content - Typen konfigurierbar wie z.B. ["article", "page", "blog", ...]
-* alle Text - Typen konfigurierbar wie z.B. ["title", "field_body", "body"], 
-
+* Konfigurieren Sie beliebige Inhaltstypen wie ["article", "page", "blog", ...]
+* Konfigurieren Sie beliebige Textfelder wie ["title", "field_body", "body"],
