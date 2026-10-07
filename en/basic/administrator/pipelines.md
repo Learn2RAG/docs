@@ -2,6 +2,8 @@
 title: Pipelines
 permalink: /en/basic/administrator/pipelines.html
 parent: Administrator Documentation
+layout: default
+nav_order: 15
 ---
 
 Each Learn2RAG pipeline is an isolated setup.

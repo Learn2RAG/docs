@@ -1,10 +1,8 @@
-
-
 ---
 layout: default
-title: Optimization
+title: Optimierung
 nav_order: 10
-permalink: /de/basic/administrator/optimization.html
+permalink: /de/basic/administrator/Optimierung.html
 parent: Administratorhandbuch
 ---
 

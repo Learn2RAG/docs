@@ -2,6 +2,8 @@
 title: Data Sources
 permalink: /en/basic/administrator/data-sources.html
 parent: Administrator Documentation
+layout: default
+nav_order: 2
 ---
 
 ## File System
