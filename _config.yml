@@ -18,6 +18,10 @@ plugins:
 #     de:
 #       name: Deutsch
 
+# Render ```mermaid code blocks as diagrams (loaded from jsDelivr)
+mermaid:
+  version: "11.4.1"
+
 # logo: "/static/images/logo.png"
 # color_scheme: "light"
 
