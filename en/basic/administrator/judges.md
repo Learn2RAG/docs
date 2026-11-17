@@ -2,7 +2,7 @@
 layout: default
 title: Judges
 nav_order: 10
-permalink: /de/basic/administrator/judges.html
+permalink: /en/basic/administrator/judges.html
 parent: Administrator Documentation
 ---
 
